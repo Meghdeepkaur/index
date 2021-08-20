@@ -1,0 +1,366 @@
+body{
+	font-family: philosopher;
+   margin: 0%;
+   background: #DAFFEF;
+   padding: 0%;
+}
+.header{
+   background-color: red;
+   width: 100%;
+   height:  80px;
+   margin: 0px;
+   padding: 0px;
+   display: block: ;
+   background-color: #101010;
+}
+.inner_header{
+   width: 1000px;
+   height: 100%;
+   display: block ;
+   margin: 0 auto;
+ }  
+.logo_container{
+   height: 100%;
+   display: table;
+   float: left;
+}
+.logo_container h1{
+   color: white;
+   height: 100%;
+   display: table-cell;
+   vertical-align: middle;
+   font-size: 32px;
+   font-family: philosopher;
+   font-weight: 200%;
+}
+.logo container h1 span{
+   font-weight: 800%;
+}
+.navigation{
+   float: right;
+   height: 100%;
+}
+.navigation a{
+   height:  100%;
+   display: table;
+   float: left;
+   padding: 0px 20px;
+}
+.navigation a:last-child{
+   padding-right: 0;
+}
+.navigation a li{
+   display: table-cell;
+   vertical-align: middle;
+   height: 100%;
+   color: white;
+   font-family: philosopher;
+   font-size: 20px;
+   padding-top: 25px;
+}
+#regform{
+
+   background-color: rgb(0,0,0,6);
+   width: 800px;
+   height:  50px;
+   margin: auto;
+   padding: 10px 0px 10px 0px;
+   color: #FFFFFF;
+   text-align: center;
+   border-radius: 15px 15px 0px 0px;
+}
+.main{
+   background-color: rgb(0,0,0,0.1);
+   width: 800px;
+   margin: auto;
+   height: 80%;
+}
+form{
+   padding: 10px;
+
+}
+#name{
+   width: 100%;
+   height: 100px;
+}
+.name{
+   margin-left: 25px;
+   margin-top: 30px;
+   width: 125px;
+   color: white;
+   font-size: 18px;
+   font-weight: 700;
+}
+.firstname{
+   position: :relative;
+   left: 200px;
+   top: -37px;
+   line-height: 40px;
+   border-radius: 6px;
+   padding: 0 22px;
+   font-size: :16px;
+}
+.lastname{
+   position: :relative;
+   left: 417px;
+   top: -80px;
+   line-height: 40px;
+   border-radius: 6px;
+   padding: 0 22px;
+   font-size: :16px;
+   color: #555;
+}
+.Age{
+   position: :relative;
+   left: 200px;
+   top: -37px;
+   line-height: 40px;
+   border-radius: 6px;
+   padding: 0 22px;
+   font-size: :18px;
+  color: #555;
+   width: 532px;
+   font-weight: 700;
+
+  
+
+}
+.email{
+   position: :relative;
+   left: 200px;
+   top: -37px;
+   line-height: 40px;
+   border-radius: 6px;
+   padding: 0 22px;
+   font-size: :18px;
+   color: #555;
+   width: 532px;
+   font-weight: 700;
+}
+.password{
+   position: :relative;
+   left: 200px;
+   top: -37px;
+   line-height: 40px;
+   border-radius: 6px;
+   padding: 0 22px;
+   font-size: :18px;
+   color: #555;
+   width: 532px;
+   font-weight: 700;
+}
+.phone-number{
+   position: :relative;
+   left: 200px;
+   top: -37px;
+   line-height: 40px;
+   border-radius: 6px;
+   padding: 0 22px;
+   font-size: :18px;
+   color: #555;
+   width: 532px;
+   font-weight: 700;
+}
+.option{
+   position: :relative;
+   left: 200px;
+   height: 40px;
+   line-height: 40px;
+   top: -37px;
+   border-radius: 6px;
+   padding: 0 22px;
+   font-size: :18px;
+   color: #555;
+   width: 532px;
+   outline: none;
+   overflow: hidden;
+   font-weight: 700;
+}
+.option option{
+   font-size: 20px;
+}
+#student{
+   margin-left: 25px;
+   color: white;
+   font-size: 18px;
+}
+.radio{
+   display: inline-block;
+   padding-right: 70px;
+   font-size: 25px;
+   margin-left: 25px;
+   margin-top: 15px;
+   color: :white;
+}
+.radio input{
+   width: 20px;
+   height: :20px;
+   border-radius: 50%;
+   cursor: pointer;
+   outline: none;
+}
+button{
+   background-color: #3BAF9F;
+   display: block;
+   margin: 20px 0px 0px 2px;
+   text-align: center;
+   border-radius: 8px;
+   border: 2px solid #366473;
+   padding: 14px 90px;
+   color: white;
+   cursor: pointer;
+   transition: 0.25px;
+   display: inline-block;
+}
+button:hover{
+   background-color: #5390F5;
+}
+
+*{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   text-decoration: none;
+}
+.sidebar{
+   position: absolute;
+   left: 0;
+   width: 250px ;
+   height: 100%;
+   background: #042331;
+}
+.sidebar header{
+   font-size: 22px;
+   color: white;
+   text-align: center;
+   line-height:  70px;
+   background: #063146;
+   user-select: none;
+
+}
+.sidebar ul a{
+   display: black;
+   height: 100%;
+   width: 100%;
+   line-height:65px;
+   font-size: 20px;
+   color: white;
+   padding left: 40px;
+   box-sizing:  border-box ;
+   border-top: 1px solid rgba(255,255,255,.1);
+   border-bottom: 1px solid black;
+
+}
+ul li:hover a{
+   padding-left: 50px ;
+
+}
+.sidebar ul a i{
+   margin-right: 16px;
+}
+.fbox{
+   height: 100vh;
+   display: fex;
+   justify-content: centre;
+   font-family: philosopher;
+   align-items: centre; 
+   
+
+}
+.fbox h1{
+  
+   text-align: centre;
+   color: violet;
+  align-items: center;
+   margin-bottom: 2px;
+   font-size: 45px;
+   letter-spacing: 2px;
+   top: 0px;
+   left: 5px;
+   transform: translate(3%);
+  
+
+}
+.fbox h3{
+  
+   text-align: centre;
+   color:indigo;
+   align-items: center;
+    top: 0px;
+   left: 5px;
+   transform: translate(3%);
+   
+}
+.search-field skills {
+   height: 30px;
+   padding: 10px;
+   position: right;
+   
+}
+span{
+   color: #f44336;
+}
+.skills{
+   width: 400px;
+    height: 40px;
+}
+.search-btn{
+
+  height: 50px;
+   width: 150px;
+    background: #f44336;
+    border: none;
+    color: #fff;
+    text-align: right;
+
+}
+.search-btn:hover
+{   
+    background: #bb0d00;
+    cursor: pointer;    
+}
+.form-box{
+   background: :rgba(255,255,255,0.5);
+   padding: 30px 50px;
+   
+}
+.navbar{
+   position: absolute;
+   top: 100px;
+   right: 10px;
+   width: 260px;
+   height: 100%;
+   background-color: #000000;
+   text-align: center;
+   transition: 0.800% ease;
+}
+.navbar>.side-nav{
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+}
+.nav-item{
+   display: flex;
+
+}
+.nav-item >.nav-link{
+   text-decoration: none;
+   color: whitesmoke;
+   font-size: 1.1em;
+   padding: 1.5em;
+   flex: 1;
+
+}
+.nav-item>.site-name{
+   text-decoration: none;
+   padding: 1.3em;
+   font-size: 2em;
+   color: whitesmoke;
+}
+.nav-item>.nav-link:hover{
+   background-color: whitesmoke;
+   color: black;
+}
+.nav-item:last-child> .nav-link i{
+   padding: .5em;
+}
